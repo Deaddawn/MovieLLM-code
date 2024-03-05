@@ -21,7 +21,7 @@
     From Fudan University and Tencent PCG
     <br>
     </br>
-        <a href="">
+        <a href="https://arxiv.org/abs/2403.01422">
         <img src='https://img.shields.io/badge/arxiv-MovieLLM-b31b1b.svg' alt='Paper PDF'></a>
         <a href="https://deaddawn.github.io/MovieLLM/">
         <img src='https://img.shields.io/badge/Project-Website-green' alt='Project Page'></a>
@@ -239,10 +239,16 @@ python calculate.py --path ./test/compare_res
 ## Citation
 If you find our work useful, please consider citing:
 
-
-<!-- ```BibTeX
-
-``` -->
+```bib
+@misc{song2024moviellm,
+      title={MovieLLM: Enhancing Long Video Understanding with AI-Generated Movies}, 
+      author={Zhende Song and Chenchen Wang and Jiamu Sheng and Chi Zhang and Gang Yu and Jiayuan Fan and Tao Chen},
+      year={2024},
+      eprint={2403.01422},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 ## Acknowledgement
 We would like to thank the following repos for their great work:
