@@ -37,6 +37,7 @@ We propose MovieLLM, a novel framework designed to create synthetic, high-qualit
 
 ## Changelog
 - __[2024.03.03]__: Release inference code, evaluation code and model weights.
+- __[2024.03.13]__: Release raw data, check it out [here](https://huggingface.co/datasets/sfsdfsafsddsfsdafsa/MovieLLM-raw-data/tree/main)
 
 
 ## Summary
@@ -99,7 +100,7 @@ This section is mainly used to demonstrate how to set up the data and model envi
 We provide raw dataset generated from our pipeline and also related training data based on LLaMA-VID.
 
 #### Our Raw Data
-Data generated from our pipeline consists of key frame images, corresponding QAs and dialogues. You can download it from here [MovieLLM-Data (coming soon)]()
+Data generated from our pipeline consists of key frame images, corresponding QAs and dialogues. You can download it from here [MovieLLM-Data](https://huggingface.co/datasets/sfsdfsafsddsfsdafsa/MovieLLM-raw-data/tree/main)
 <image src="docs/tuning_data_distribution.png" />
 
 #### Training Data
