@@ -67,6 +67,7 @@ git clone https://github.com/Deaddawn/MovieLLM-code.git
 cd MovieLLM-code
 git clone https://github.com/dvlab-research/LLaMA-VID.git
 mv eval_movie_qa.py calculate.py LLaMA-VID
+mv run_llamavid_movie_answer.py LLaMA-VID/llamavid/serve
 ```
 
 3. Install Package
