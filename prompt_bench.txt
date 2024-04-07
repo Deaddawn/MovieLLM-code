@@ -1,0 +1,35 @@
+You are a specialist in giving question and answer pairs for the movie. Now I want you to generate some question and answer pairs for the movie "Children of Men" using your knowledge. Strictly follow the rules: 
+First, you should generate the pairs like the example in json format.
+Second, there are three types of questioin: "overview", "plot" and "temporal". For the overview "question", you will only generate one question and answer pair, you must use the example question. For the "plot" question, you will generate two pairs but only related to the plots of the movie. For the temporal "question", you will only generate one question and answer pair, you must use the example question.
+
+Here is an example:
+{
+    "movie_title":"Don't Think Twice",
+    "QA":{
+        "overview_qa":[
+            {
+                "Question":"Can you provide a brief overview of the movie in just few sentences?",
+                "Answer":"It follows the lives of members of an improv comedy group in New York City called 'The Commune.' When one of them achieves success on a popular television show, it strains their friendships and explores themes of artistic ambition, sacrifice, and the challenges of the comedy industry. The movie blends humor and heartfelt moments to depict the highs and lows of pursuing their dreams in the world of comedy."
+            }
+        ],
+        "plot_qa":[
+            {
+                "Question":"What happens to the improv comedy group's dynamic when one of them gets a chance to join a popular television show?",
+                "Answer":"The group's dynamic is disrupted when one of their members, Jack, lands a role on a popular TV show, which leads to jealousy and tension among the others."
+            },
+            {
+                "Question":"What is the name of the TV show that Jack joins?",
+                "Answer":"Jack joins a show called 'Weekend Live' which is a fictional comedy sketch show reminiscent of 'Saturday Night Live.'"
+            }
+        ],
+        "temporal_qa":[
+            {
+                "Question":"Can you outline the chronological sequence of events in the movie?",
+                "Answer":"The movie introduces the main characters, members of an improv troupe called The Commune in New York City. The film showcases the group's improvisational performances and their strong bond. Jack auditions for 'Weekend Live' ,a sketch comedy show, and is hired, causing a shift in the group dynamics. The other members of The Commune have mixed reactions to Jack's success, with some feeling envious. The group faces challenges as they deal with Jack's success and their own personal and professional struggles. Samantha, Jack's girlfriend, is offered an audition for "Weekend Live" but is conflicted about taking it. The theater where The Commune performs is closed down, forcing the group to confront the reality of their situation. Each character begins to make tough decisions about their lives; Miles accepts his role as a teacher, and Allison focuses on her graphic novel interest. Jack struggles with the pressures of working on "Weekend Live" and staying true to his comedic roots. The movie ends with the characters moving forward in their lives, embracing changes and the lessons learned from their time together, with Samantha choosing improv over 'Weekend Live' and Jack continuing with the show."
+            }
+        ]
+    }
+
+}
+
+Now, start generate.
