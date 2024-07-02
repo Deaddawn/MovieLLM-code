@@ -40,6 +40,7 @@ We propose MovieLLM, a novel framework designed to create synthetic, high-qualit
 - __[2024.03.13]__: Release raw data, check it out [here](https://huggingface.co/datasets/sfsdfsafsddsfsdafsa/MovieLLM-raw-data/tree/main)
 
 
+
 ## Summary
 This repository is mainly used for these purposes: data generation code, training code, video evaluation code. We build this repo based on LLaMA-VID. We plan to first release our model, inference and evaluation code and then the rest.  
 <b>For a better understanding of our training and evaluation process, we suggest running through codes from [LLaMA-VID](https://github.com/dvlab-research/LLaMA-VID) first.</b>
