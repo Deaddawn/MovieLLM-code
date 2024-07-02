@@ -38,7 +38,7 @@ We propose MovieLLM, a novel framework designed to create synthetic, high-qualit
 ## Changelog
 - __[2024.03.03]__: Release inference code, evaluation code and model weights.
 - __[2024.03.13]__: Release raw data, check it out [here](https://huggingface.co/datasets/sfsdfsafsddsfsdafsa/MovieLLM-raw-data/tree/main)
-
+- __[2024.07.02]__: All generation code will be released after the work is accepted.
 
 
 ## Summary
